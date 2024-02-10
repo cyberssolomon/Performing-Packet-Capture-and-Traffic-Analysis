@@ -27,7 +27,7 @@ Project consists of using Wireshark's analysis capabilities to review captured t
 
 ### Section 1
 
-<h2>Scan the Network with Zenmap:</h2>
+<h2>Comfigure Wireshark and Generate Network Traffic:</h2>
 
 
 
@@ -37,19 +37,11 @@ Project consists of using Wireshark's analysis capabilities to review captured t
 
 
 <p align="center">
-Show the contents of the Ports/Hosts tab from the SYN scan for fileserver01.securelabsondeman.com: <br/>
+Show the successful FTP and SFTP file transfers: <br/>
 <img src="https://i.imgur.com/RsdN9Aa.png" height="80%" width="80%" alt="Section 1 Steps"/>
-<br />
-<br />
-Show the contents of the Host Details from the OS scan for fileserver01.securelabsondemand.com:  <br/>
-<img src="https://i.imgur.com/ptaiUzA.png" height="80%" width="80%" alt="Section 1 Steps"/>
-<br />
-<br />
-Show the details in the Ports/Hosts tab from the Service scan for fileserver01.securelabsondemand.com: <br/>
-<img src="https://i.imgur.com/6yb1r5n.png" height="80%" width="80%" alt="Section 1 Steps"/>
 
 
- <h2>Conduct a Vulnerability Scan with Nessus:</h2>
+ <h2>Analyze Traffic Using Wireshark:</h2>
 
 
 
@@ -58,45 +50,36 @@ Show the details in the Ports/Hosts tab from the Service scan for fileserver01.s
 
 
 <p align="center">
-Show the Nessus report summary: <br/>
+Show the ICMP Payload: <br/>
 <img src="https://i.imgur.com/TJrpqi7.png" height="80%" width="80%" alt="Section 1 Steps"/>
-
-
- <h2>Evaluate Your Findings:</h2>
-
-
-
-
-
-
-
-<p align="center">
-Summarize the selected vulnerability, icluding the CVSS risk score, and recommend a mitigation strategy: <br/>
-<img src="https://i.imgur.com/RfV3hV2.png" height="80%" width="80%" alt="Section 1 Steps"/>
-
- ### Section 2
-
-<h2>Scan the Network with Nmap:</h2>
-
-
-
-
-
-
-
-
-
-
-<p align="center">
-Show the results of the traceroute command: <br/>
-<img src="https://i.imgur.com/Dx587yu.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
-Show the results of the Nmap scan with the OS detection activated:  <br/>
+Show the Last Login information in the Packet Details pane:  <br/>
+<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<br />
+<br />
+Show the SSHv2 encryption and mac selections for the SSH connection:  <br/>
+<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<br />
+<br />
+Show the highlighted encrypted data in the Packet Bytes pane:  <br/>
+<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<br />
+<br />
+Show the passive port specified bt the FTP server in the Packet Details pane:  <br/>
+<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<br />
+<br />
+Show the Destination Port field value in the Packet Details pane:  <br/>
 <img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
 
 
- <h2>Conduct a Vulnerability Scan with OpenVAS:</h2>
+
+ 
+
+ ### Section 2
+
+<h2>Configure Wireshark and Generate Network Traffic:</h2>
 
 
 
@@ -108,11 +91,52 @@ Show the results of the Nmap scan with the OS detection activated:  <br/>
 
 
 <p align="center">
-Show the detailed OpenVAS scan results: <br/>
+Show the sta1-wlan0 connected to the SecureLabs-WiFi network: <br/>
+<img src="https://i.imgur.com/Dx587yu.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<br />
+<br />
+Show the updated security mode on the Status page:  <br/>
+<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<br />
+<br />
+Show the connection to the now-encrypted WLAN:  <br/>
+<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+
+
+ <h2>Analyze Traffic Using Wireshark:</h2>
+
+
+
+
+
+
+
+
+
+
+<p align="center">
+Show the SSID and channel in the Packet Details pane: <br/>
 <img src="https://i.imgur.com/ynJCPgr.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<br />
+<br />
+Show the Packet Details for the ICMP packet:  <br/>
+<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<br />
+<br />
+Show the Packet Details for the HTTP packet:  <br/>
+<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<br />
+<br />
+Show the key information for Message 3 in the four-way handshake:  <br/>
+<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
 
 
- <h2>Prepare a Penetration Test Report:</h2>
+
+
+
+ ### Section 3
+
+<h2>Generate Malicious Network Traffic:</h2>
 
 
 
@@ -124,38 +148,12 @@ Show the detailed OpenVAS scan results: <br/>
 
 
 <p align="center">
-Target, Purpose, Scope: <br/>
-<img src="https://i.imgur.com/Gb4ZcwM.png" height="80%" width="80%" alt="Section 1 Steps"/>
-<br />
-<br />
-Summary of Findings: <br/>
-<img src="https://i.imgur.com/fOviUv5.png" height="80%" width="80%" alt="Section 1 Steps"/>
-<br />
-<br />
-Conclusion: <br/>
-<img src="https://i.imgur.com/HBNtH8v.png" height="80%" width="80%" alt="Section 1 Steps"/>
-
-
-### Section 3
-
-<h2>Scan the Domain Controller with Nmap:</h2>
-
-
-
-
-
-
-
-
-
-
-<p align="center">
-Show the results of your targeted port scan on the domain controller: <br/>
+Show the aireplay-ng --deauth output: <br/>
 <img src="https://i.imgur.com/Ef2Qtkf.png" height="80%" width="80%" alt="Section 1 Steps"/>
 
 
 
- <h2>Scan the Domain Controller with Nessus:</h2>
+ <h2>Analyze Malicious Network Traffic:</h2>
 
 
 
@@ -167,32 +165,16 @@ Show the results of your targeted port scan on the domain controller: <br/>
 
 
 <p align="center">
-Show the Nessus report summary for the domain controller: <br/>
+Show one of the deauth packets that you generated between the BSSID and your selected station: <br/>
 <img src="https://i.imgur.com/dcbpBmC.png" height="80%" width="80%" alt="Section 1 Steps"/>
-
-
- <h2>Prepare a Penetration Test Report:</h2>
-
-
-
-
-
-
-
-
-
-
-<p align="center">
-Target, Purpose, Scope: <br/>
-<img src="https://i.imgur.com/kmqOzU8.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
-Summary of Findings: <br/>
-<img src="https://i.imgur.com/se7lBVR.png" height="80%" width="80%" alt="Section 1 Steps"/>
-<br />
-<br />
-Conclusion: <br/>
-<img src="https://i.imgur.com/UKaA59e.png" height="80%" width="80%" alt="Section 1 Steps"/>
+Show the packets related to the four-way handshake:  <br/>
+<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+
+
+
+
 
 
 
