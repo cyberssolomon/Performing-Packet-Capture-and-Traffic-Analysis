@@ -66,7 +66,7 @@ Show the highlighted encrypted data in the Packet Bytes pane:  <br/>
 <img src="https://i.imgur.com/yMFpc6U.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
-Show the passive port specified bt the FTP server in the Packet Details pane:  <br/>
+Show the passive port specified by the FTP server in the Packet Details pane:  <br/>
 <img src="https://i.imgur.com/34MYpz0.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
