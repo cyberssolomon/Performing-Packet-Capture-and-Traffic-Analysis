@@ -27,7 +27,7 @@ Project consists of using Wireshark's analysis capabilities to review captured t
 
 ### Section 1
 
-<h2>Comfigure Wireshark and Generate Network Traffic:</h2>
+<h2>Configure Wireshark and Generate Network Traffic:</h2>
 
 
 
