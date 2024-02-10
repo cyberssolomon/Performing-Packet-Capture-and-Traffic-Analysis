@@ -22,7 +22,7 @@
 
  
 <h2>Description</h2>
-Project consists of using Wireshark;s analysis capabilities to review captured traffic at a packet level: running a capture session and generating common network traffic, using Wireshark to analyze the captured data.
+Project consists of using Wireshark's analysis capabilities to review captured traffic at a packet level: running a capture session and generating common network traffic, using Wireshark to analyze the captured data.
 <br />
 
 ### Section 1
