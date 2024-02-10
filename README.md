@@ -38,7 +38,7 @@ Project consists of using Wireshark's analysis capabilities to review captured t
 
 <p align="center">
 Show the successful FTP and SFTP file transfers: <br/>
-<img src="https://i.imgur.com/O1o8KB8.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/ui0CKSW.png" height="80%" width="80%" alt="Section 1 Steps"/>
 
 
  <h2>Analyze Traffic Using Wireshark:</h2>
@@ -51,27 +51,27 @@ Show the successful FTP and SFTP file transfers: <br/>
 
 <p align="center">
 Show the ICMP Payload: <br/>
-<img src="https://i.imgur.com/TJrpqi7.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/LrI1tkL.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
 Show the Last Login information in the Packet Details pane:  <br/>
-<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/0oihPmF.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
 Show the SSHv2 encryption and mac selections for the SSH connection:  <br/>
-<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/Hl3WgQL.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
 Show the highlighted encrypted data in the Packet Bytes pane:  <br/>
-<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/yMFpc6U.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
 Show the passive port specified bt the FTP server in the Packet Details pane:  <br/>
-<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/34MYpz0.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
 Show the Destination Port field value in the Packet Details pane:  <br/>
-<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/hFjkHSp.png" height="80%" width="80%" alt="Section 1 Steps"/>
 
 
 
