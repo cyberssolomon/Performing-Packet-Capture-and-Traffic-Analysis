@@ -38,7 +38,7 @@ Project consists of using Wireshark's analysis capabilities to review captured t
 
 <p align="center">
 Show the successful FTP and SFTP file transfers: <br/>
-<img src="https://i.imgur.com/RsdN9Aa.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/O1o8KB8.png" height="80%" width="80%" alt="Section 1 Steps"/>
 
 
  <h2>Analyze Traffic Using Wireshark:</h2>
