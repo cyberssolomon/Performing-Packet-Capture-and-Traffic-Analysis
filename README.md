@@ -92,15 +92,15 @@ Show the Destination Port field value in the Packet Details pane:  <br/>
 
 <p align="center">
 Show the sta1-wlan0 connected to the SecureLabs-WiFi network: <br/>
-<img src="https://i.imgur.com/Dx587yu.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/49vAuBq.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
 Show the updated security mode on the Status page:  <br/>
-<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/AcqhIdC.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
 Show the connection to the now-encrypted WLAN:  <br/>
-<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/Xuqyk6u.png" height="80%" width="80%" alt="Section 1 Steps"/>
 
 
  <h2>Analyze Traffic Using Wireshark:</h2>
@@ -116,19 +116,19 @@ Show the connection to the now-encrypted WLAN:  <br/>
 
 <p align="center">
 Show the SSID and channel in the Packet Details pane: <br/>
-<img src="https://i.imgur.com/ynJCPgr.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/wWAr1pH.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
 Show the Packet Details for the ICMP packet:  <br/>
-<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/A179tO3.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
 Show the Packet Details for the HTTP packet:  <br/>
-<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/VzYHDMR.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
 Show the key information for Message 3 in the four-way handshake:  <br/>
-<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/ORj7kYF.png" height="80%" width="80%" alt="Section 1 Steps"/>
 
 
 
@@ -149,7 +149,7 @@ Show the key information for Message 3 in the four-way handshake:  <br/>
 
 <p align="center">
 Show the aireplay-ng --deauth output: <br/>
-<img src="https://i.imgur.com/Ef2Qtkf.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/wjKfVKX.png" height="80%" width="80%" alt="Section 1 Steps"/>
 
 
 
@@ -166,11 +166,11 @@ Show the aireplay-ng --deauth output: <br/>
 
 <p align="center">
 Show one of the deauth packets that you generated between the BSSID and your selected station: <br/>
-<img src="https://i.imgur.com/dcbpBmC.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/cmimqDJ.png" height="80%" width="80%" alt="Section 1 Steps"/>
 <br />
 <br />
 Show the packets related to the four-way handshake:  <br/>
-<img src="https://i.imgur.com/I9cwbXR.png" height="80%" width="80%" alt="Section 1 Steps"/>
+<img src="https://i.imgur.com/SoaaGZ3.png" height="80%" width="80%" alt="Section 1 Steps"/>
 
 
 
