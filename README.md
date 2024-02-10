@@ -15,10 +15,10 @@
 - <b>Switch01 (Linux: Debian 11)</b>
 - <b>pfSense Office (FreeBSD)</b>
 - <b>Mininet01 (Linux: Ubuntu 20)</b>
-    Ap1
-    Sta1
-    Sta2
-    Sta3
+    Ap1,
+    Sta1,
+    Sta2,
+    Sta3,
 
  
 <h2>Description</h2>
